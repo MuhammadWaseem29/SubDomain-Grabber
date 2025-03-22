@@ -121,7 +121,7 @@ def display_menu():
     menu = [
         f"{C_GOLD if USE_COLORS else ''}1. View Stats{C_RESET}",
         f"{C_GOLD if USE_COLORS else ''}2. List Programs{C_RESET}",
-        f"{C_GOLD if USE_COLORS else ''}3. Process Subdomains{C_RESET}",
+        f"{C_GOLD if USE_COLORS else ''}3. Download Subdomains{C_RESET}",
         f"{C_GOLD if USE_COLORS else ''}4. Exit{C_RESET}"
     ]
     print(f"{C_SILVER if USE_COLORS else ''}╔{'═' * 42}╗")
